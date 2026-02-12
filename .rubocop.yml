@@ -1,0 +1,13 @@
+# RuboCop configuration for Sales Tax Calculator
+
+AllCops:
+  TargetRubyVersion: 3.0
+  NewCops: enable
+  SuggestExtensions: false
+  Exclude:
+    - 'vendor/**/*'
+
+# Relax block length limits for spec files
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
